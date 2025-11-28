@@ -23,7 +23,7 @@ ChartJS.register(
   Legend
 );
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://real-estate-analysis-0wru.onrender.com/api';
 
 const ChatInterface = () => {
   const [query, setQuery] = useState('');
